@@ -1,0 +1,15 @@
+name: lab9_flutter
+description: Lab 9 - JSON Local Storage
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  path_provider: ^2.1.5   # Đọc/ghi file local (Lab 9.2, 9.3)
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/data/products.json   # File JSON nhúng sẵn (Lab 9.1)

@@ -1,0 +1,22 @@
+name: taskly
+description: A simple task manager app — Lab 11 Flutter Testing with Riverpod.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.5.1
+  uuid: ^4.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_riverpod: ^2.5.1   # also needed in dev for ProviderContainer in unit tests
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
